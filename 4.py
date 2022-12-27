@@ -1,5 +1,6 @@
 #programa normal para calcular factorial
-"""import time
+import time
+
 def factorial(n):
     b=1
     for i in range (n,1,-1):
@@ -8,7 +9,7 @@ def factorial(n):
 tiempo1=time.perf_counter()
 A=factorial(5)
 tiempo2=time.perf_counter()
-print(A," .......tiempo de ejecución: ",tiempo2-tiempo1)"""
+print(A," .......tiempo de ejecución: ",tiempo2-tiempo1)
 
 #1  .......tiempo de ejecución:  3.00002284348011e-06
 # PS C:\Users\GigaByte\Documents\python> 
@@ -17,6 +18,7 @@ print(A," .......tiempo de ejecución: ",tiempo2-tiempo1)"""
 #programa recursivo para calcular factorial
 
 import time
+
 def factorial_recursivo(n):
      if n == 1:
          return 1
