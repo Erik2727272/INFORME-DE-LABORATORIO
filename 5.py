@@ -1,5 +1,6 @@
 #programa normal para calcular sucesión de fibonacci
-"""import time
+import time
+
 def fibonacci(n):
      a = 0
      b = 1
@@ -11,12 +12,13 @@ def fibonacci(n):
 tiempo1=time.perf_counter()
 fibonacci(5)
 tiempo2=time.perf_counter()
-print("Tiempo de ejecución de serie de fibonacci: ",tiempo2-tiempo1)"""
+print("Tiempo de ejecución de serie de fibonacci: ",tiempo2-tiempo1)
 
 #Fibonacci no recursivo demoro:  2.9997900128364563e-06
 # PS C:\Users\GigaByte\Documents\python> 
 
 import time
+
 def fibonacci_recursivo(numero):
      if numero == 0 or numero == 1:
          return 1
